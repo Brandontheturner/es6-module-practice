@@ -1,7 +1,11 @@
 import add from "./add.js";
 
+export function addOne(num) {
+  return add(num, 1);
+}
+
 export function addTen(num) {
-  return add(num,10);
+  return add(num, 10);
 }
 
 export function addFive(num) {
